@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    background-image: "gym.jpeg";
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+main div h1{
+    display: block;
+    position: absolute;
+    top: -950px;
+    left: 77px;
+    font-size: xxx-large;
+    color: #5c838f;
+}
+
+main div h3{
+    border: 2px solid #31535d;
+    display: block;
+    position: absolute;
+    left: 675px;
+    font-size: 30px;
+    color: #5c838f;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 44px;
+    width: 300px;
+    top: -363px;
+    justify-content: center;
+    cursor:pointer;
+    margin:0 auto;
+}
+main div h3:hover{
+    color: rgb(23, 15, 30);
+    background-color: #31535d;
+}
+
+footer{
+    background-color: rgb(15, 41, 52);
+    display: block;
+    color: white;
+    text-align: center;
+    margin: -22px;
+}
+
+
+
+main{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar {
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 4px; /* Adjust this value to move the positioned div up and down */ 
+}
+
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.search {
+  float: right;
+  color: white;
+  padding: 12px 75px;
+}
+.navbar input {
+  border: 2px solid white;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.navbar .search i{
+    color: rgb(16, 79, 106);
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 12px;
+}

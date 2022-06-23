@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Macondo&family=Permanent+Marker&family=Source+Serif+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+
+}
+
+.sidebar{
+    position: absolute;
+    width: 10vw;
+    font-family: 'Macondo', cursive;
+}
+
+.sidebar img{
+    background-size: 80px, 20px;
+}
+
+.sidebar ul li {
+    position: absolute;
+    list-style: none;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.main h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Macondo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(14, 141, 52);
+    text-transform: uppercase;
+    text-decoration:dashed;
+}
